@@ -42,6 +42,31 @@
             <artifactId>geronimo-servlet_3.0_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+        	<groupId>com.cloudant</groupId>
+        	<artifactId>cloudant-client</artifactId>
+        	<version>2.0.0</version>
+        </dependency>
+        <dependency>
+        	<groupId>com.google.code.gson</groupId>
+        	<artifactId>gson</artifactId>
+        	<version>2.2.4</version>
+        </dependency>
+        <dependency>
+        	<groupId>javax.servlet</groupId>
+        	<artifactId>javax.servlet</artifactId>
+        	<version>3.0.0</version>
+        	<scope>system</scope>
+            <systemPath>${basedir}/lib/javax.servlet_3.0.0.jar</systemPath>
+        </dependency>
+        <dependency>
+          <groupId>javax.ws.rs</groupId>
+           <artifactId>javax.ws.rs</artifactId>
+            <version>1.1</version>
+             <scope>system</scope>
+              <systemPath>${basedir}/lib/com.ibm.ws.javaee.jaxrs.1.1_1.0.1.jar</systemPath>
+         </dependency> 
     </dependencies>
 
     <build>
