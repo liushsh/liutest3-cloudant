@@ -3,8 +3,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: liutest3
-  host: liutest3
+  name: liutest3-cloudant
+  host: liutest3-cloudant
   disk_quota: 1024M
   services:
   - liutest2-cloudantNoSQLDB
